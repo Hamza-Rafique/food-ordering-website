@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
 import { MENU_IMG } from '../utils/constants';
-import { Link } from 'react-router-dom';
 import { deleteItem } from '../utils/cartSlice';
 
 const CartList = (props) => {

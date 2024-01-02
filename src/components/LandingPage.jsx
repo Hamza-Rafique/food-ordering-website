@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { CiLocationOn } from 'react-icons/ci';
 import useSearchLocation from '../hooks/useSearchLocation';
 import { ADDRESS_API, LOGO_URL } from '../utils/constants';
-import { useDispatch } from 'react-redux';
 import { getLocation } from '../utils/locationSlice';
-import { CiLocationOn } from 'react-icons/ci';
 
 const LandingPage = () => {
   const SearchText = useRef(null);

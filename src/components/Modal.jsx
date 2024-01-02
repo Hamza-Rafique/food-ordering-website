@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { toggleModal } from '../utils/toggleSlice';
 import { useNavigate } from 'react-router-dom';
+import { toggleModal } from '../utils/toggleSlice';
 
 const Modal = () => {
   const dispatch = useDispatch();

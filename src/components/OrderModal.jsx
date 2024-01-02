@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { toggleModal } from '../utils/toggleSlice';
-import { Link } from 'react-router-dom';
 
 const OrderModal = () => {
   const dispatch = useDispatch();

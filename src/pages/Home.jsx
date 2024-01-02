@@ -1,12 +1,12 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import RestaurantCard, {
   RestaurantCardOffer,
 } from "../components/RestaurantCard";
-import { Link } from "react-router-dom";
 import ShimmerUi from "../components/ShimmerUi";
 import useRestaurant from "../hooks/useRestaurant";
 import { CATEGORY_IMG, IMG_CAROUSEL } from "../utils/constants";
-import { useSelector } from "react-redux";
 import Modal from "../components/Modal";
 
 const Home = () => {

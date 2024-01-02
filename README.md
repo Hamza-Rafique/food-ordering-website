@@ -1,3 +1,7 @@
+## 🛠 Run Project
+> run npm i
+> run npm run dev  for start your project
+
 >  Monke Labs Food, a React.js-based food ordering website, seamlessly connects users with their favorite dishes through the live Swiggy API. With Redux for state management, React Router DOM for smooth navigation, and Tailwind CSS for a visually appealing interface, it offers a modern and efficient way to explore, order, and enjoy a diverse range of culinary delights.
 
 ## 🛠 Built With

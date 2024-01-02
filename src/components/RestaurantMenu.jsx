@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { MENU_API } from '../utils/constants';
+import { useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
+import { IoLocationOutline } from 'react-icons/io5';
+import { MENU_API } from '../utils/constants';
 import RestaurantCategory from './RestaurantCategory';
 import ShimmerMenu from './ShimmerMenu';
 import useRestaurantMenu from '../hooks/useRestaurantMenu';
-import { useSelector } from 'react-redux';
-import { IoLocationOutline } from 'react-icons/io5';
+
 import Modal from './Modal';
 
 const RestaurantMenu = () => {

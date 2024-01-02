@@ -1,6 +1,6 @@
 import { Collapse } from 'react-collapse';
-import RestaurantMenuList from './RestaurantMenuList';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import RestaurantMenuList from './RestaurantMenuList';
 
 const RestaurantCategory = (props) => {
   const { data, handleShowItem, ShowItem } = props;

@@ -1,8 +1,8 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import toast, { Toaster } from 'react-hot-toast';
 import { MENU_IMG } from '../utils/constants';
 import { addItem } from '../utils/cartSlice';
-import toast, { Toaster } from 'react-hot-toast';
-import { useState } from 'react';
 
 const RestaurantMenuList = (props) => {
   const { items } = props;

@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
+import toast, { Toaster } from 'react-hot-toast';
 import CartList from '../components/CartList';
 import { clearCart } from '../utils/cartSlice';
-import toast, { Toaster } from 'react-hot-toast';
 import { toggleModal } from '../utils/toggleSlice';
 import OrderModal from '../components/OrderModal';
 
